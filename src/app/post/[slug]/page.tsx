@@ -1,6 +1,6 @@
 import { getPostData, getSortedPostsData } from '@/lib/posts';
 import { Metadata } from "next";
-import { Params } from '@/types/Params';
+// import { Params } from '@/types/Params';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 
-export default async function Post({ params }: Params) {
+export default async function Post({ params }: { params: { slug: string } }) {
   const awaitedParams = await Promise.resolve(params); // Asegurar que params es asíncrono
 
   if (!awaitedParams?.slug) return <p>Error: No se encontró el post</p>;
