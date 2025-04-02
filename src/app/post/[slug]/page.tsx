@@ -10,16 +10,16 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const awaitedParams = await Promise.resolve(params); // Asegurar que params es asíncrono
-  if (!awaitedParams?.slug) return {};
-  const postData = await getPostData(awaitedParams.slug);
+  if (!params?.slug) return {};
+  const postData = await getPostData(params.slug);
+
   return {
     title: `${postData.title} - Mi Blog`,
     description: `Lee sobre ${postData.title}. Reseñas y recomendaciones de productos.`,
     openGraph: {
       title: postData.title,
       description: `Descubrí más sobre ${postData.title}.`,
-      url: `https://tublog.com/post/${awaitedParams.slug}`,
+      url: `https://tublog.com/post/${params.slug}`,
       type: "article",
       images: [
         {
@@ -37,18 +37,16 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       images: ["https://tublog.com/images/default-thumbnail.jpg"],
     },
     alternates: {
-      canonical: `https://tublog.com/post/${awaitedParams.slug}`,
+      canonical: `https://tublog.com/post/${params.slug}`,
     },
   };
 }
 
 
 export default async function Post({ params }: { params: { slug: string } }) {
-  const awaitedParams = await Promise.resolve(params); // Asegurar que params es asíncrono
+  if (!params?.slug) return <p>Error: No se encontró el post</p>;
 
-  if (!awaitedParams?.slug) return <p>Error: No se encontró el post</p>;
-
-  const postData = await getPostData(awaitedParams.slug);
+  const postData = await getPostData(params.slug);
 
   return (
 
