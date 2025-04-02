@@ -4,12 +4,18 @@ import { Metadata } from "next";
 import Link from 'next/link';
 import Image from 'next/image';
 
+interface PostProps {
+  params: {
+    slug: string;
+  };
+}
+
 export async function generateStaticParams() {
   const posts = getSortedPostsData();
   return posts.map((post) => ({ slug: post.slug }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: PostProps): Promise<Metadata> {
   if (!params?.slug) return {};
   const postData = await getPostData(params.slug);
 
@@ -43,9 +49,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 
-export default async function Post({ params }: { params: { slug: string } }) {
+export default async function Post({ params }: PostProps) {
   if (!params?.slug) return <p>Error: No se encontró el post</p>;
-
   const postData = await getPostData(params.slug);
 
   return (
@@ -57,7 +62,6 @@ export default async function Post({ params }: { params: { slug: string } }) {
         <div className="prose mb-8">
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
-
         <div className="mt-8">
           <h3 className="text-xl font-semibold">Productos recomendados:</h3>
           <div className="flex flex-wrap justify-around gap-8">
@@ -72,7 +76,6 @@ export default async function Post({ params }: { params: { slug: string } }) {
                 />
               </div>
             </Link>
-
             <Link href="https://amzn.to/4iOX2KN" target="_blank" className="text-blue-600 hover:underline" rel="nofollow noopener noreferrer">
               <div className="flex flex-col items-center text-center">
                 Mouse inalámbrico ergonómico
@@ -84,7 +87,6 @@ export default async function Post({ params }: { params: { slug: string } }) {
                 />
               </div>
             </Link>
-
             <Link href="https://amzn.to/3FSnk0o" target="_blank" className="text-blue-600 hover:underline" rel="nofollow noopener noreferrer">
               <div className="flex flex-col items-center text-center">
                 Auriculares bluethoot
