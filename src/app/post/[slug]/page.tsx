@@ -4,20 +4,20 @@ import { Metadata } from "next";
 import Link from 'next/link';
 import Image from 'next/image';
 
-interface PostProps {
+type PageProps = {
   params: {
     slug: string;
   };
-}
+};
 
 export async function generateStaticParams() {
   const posts = getSortedPostsData();
-  return posts.map((post) => ({ slug: post.slug }));
+  return posts.map((post) => ({ slug: post.slug })) as { slug: string }[];
 }
 
-export async function generateMetadata({ params }: PostProps): Promise<Metadata> {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   if (!params?.slug) return {};
-  const postData = await getPostData(params.slug);
+  const postData = getPostData(params.slug);
 
   return {
     title: `${postData.title} - Mi Blog`,
@@ -49,9 +49,9 @@ export async function generateMetadata({ params }: PostProps): Promise<Metadata>
 }
 
 
-export default async function Post({ params }: PostProps) {
+export default async function Post({ params }:  PageProps) {
   if (!params?.slug) return <p>Error: No se encontró el post</p>;
-  const postData = await getPostData(params.slug);
+  const postData = getPostData(params.slug);
 
   return (
 
