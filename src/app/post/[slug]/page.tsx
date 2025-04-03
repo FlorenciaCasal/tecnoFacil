@@ -1,48 +1,5 @@
-// import { getPostData, getSortedPostsData } from '@/lib/posts';
-// // import { Metadata } from "next";
 import Link from 'next/link';
 import Image from 'next/image';
-
-// export async function generateStaticParams() {
-//   const posts = getSortedPostsData();
-//   return posts.map((post) => ({ slug: post.slug }));
-// }
-
-// export async function generateMetadata({ params }: { params: { slug: string } }) {
-//   const postData = await getPostData(params.slug);
-
-//   return {
-//     title: `${postData.title} - Mi Blog`,
-//     description: `Lee sobre ${postData.title}. Reseñas y recomendaciones de productos.`,
-//     openGraph: {
-//       title: postData.title,
-//       description: `Descubrí más sobre ${postData.title}.`,
-//       url: `https://tublog.com/post/${params.slug}`,
-//       type: "article",
-//       images: [
-//         {
-//           url: "https://tublog.com/images/default-thumbnail.jpg",
-//           width: 1200,
-//           height: 630,
-//           alt: postData.title,
-//         },
-//       ],
-//     },
-//     twitter: {
-//       card: "summary_large_image",
-//       title: postData.title,
-//       description: `Lee sobre ${postData.title}.`,
-//       images: ["https://tublog.com/images/default-thumbnail.jpg"],
-//     },
-//     alternates: {
-//       canonical: `https://tublog.com/post/${params.slug}`,
-//     },
-//   };
-// }
-
-
-// export default async function Post({ params }: { params: { slug: string } }) {
-//   const postData = await getPostData(params.slug);
 import { getPostData } from "@/lib/posts";
 import { Metadata } from "next";
 

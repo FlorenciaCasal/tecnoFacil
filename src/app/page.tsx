@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mi Blog - Productos recomendados",
     description: "Explora nuestras recomendaciones de productos tecnológicos.",
-    url: "https://tublog.com",
+    url: "https://tecno-facil-eight.vercel.app",
     type: "website",
     images: [
       {
-        url: "https://tublog.com/images/og-image.jpg",
+        url: "https://tecno-facil-eight.vercel.app/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Mi Blog - Productos recomendados",
@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mi Blog - Productos recomendados",
     description: "Explora nuestras recomendaciones de productos tecnológicos.",
-    images: ["https://tublog.com/images/og-image.jpg"],
+    images: ["https://tecno-facil-eight.vercel.app/images/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://tublog.com",
+    canonical: "https://tecno-facil-eight.vercel.app",
   },
 };
 
