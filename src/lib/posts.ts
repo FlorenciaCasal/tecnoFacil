@@ -2,12 +2,17 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
-import { PostMetaData } from '@/types/PostData';
-import { PostData } from '@/types/PostData';
 
 const postsDirectory = path.join(process.cwd(), 'src/content/posts');
 
-export function getSortedPostsData(): PostMetaData[] {
+interface Post {
+  slug: string;
+  title: string;
+  date: string;
+  contentHtml?: string;
+}
+
+export function getSortedPostsData(): Post[] {
   const fileNames = fs.readdirSync(postsDirectory);
   return fileNames.map(fileName => {
     const slug = fileName.replace(/\.md$/, '');
@@ -23,11 +28,11 @@ export function getSortedPostsData(): PostMetaData[] {
   }).sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export function getPostData(slug: string): PostData {
+export async function getPostData(slug: string): Promise<Post> {
   const fullPath = path.join(postsDirectory, `${slug}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const matterResult = matter(fileContents);
-  const contentHtml = marked(matterResult.content) as string;;
+  const contentHtml = (await marked(matterResult.content)) || '';
 
   return {
     slug,
