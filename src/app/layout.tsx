@@ -4,15 +4,7 @@ import "./globals.css";
 import { Provider } from "react-redux";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
-
-
-export const metadata = {
-  title: "TecnoFácil",
-  description: "Tu blog de tecnología y afiliados.",
-  other: {
-    "google-site-verification": "XxFbi9NVvJKit-RXiTz3TkbONib3welm7lTaMbvtf9c",
-  },
-};
+import Head from "next/head";
 
 
 export default function RootLayout({
@@ -22,6 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <Head>
+        <title>TecnoFácil</title>
+        <meta name="description" content="Tu blog de tecnología y afiliados." />
+        <meta name="google-site-verification" content="XxFbi9NVvJKit-RXiTz3TkbONib3welm7lTaMbvtf9c" />
+      </Head>
       <body className="flex flex-col min-h-screen">
         <Provider store={store}>
           <Navbar />
