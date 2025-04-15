@@ -27,7 +27,7 @@ export default function ContactPage() {
             className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition-colors flex items-center"
           >
             <EnvelopeIcon className="h-5 w-5 mr-2" />
-            tecnofacilblogweb@gmail.com
+            contacto@tecnofacil.ar
           </p>
           <p className="mt-3 text-sm text-gray-500">
             Respondemos en menos de 48 horas.

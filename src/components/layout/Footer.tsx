@@ -35,11 +35,11 @@ const Footer: React.FC<FooterProps> = () => {
                     <div className="flex flex-col items-center md:items-start space-y-1">
                         <h4 className="text-sm font-semibold text-white mb-1">Contacto</h4>
                         <a
-                            href="mailto:tecnofacilblogweb@gmail.com"
+                            href="mailto:contacto@tecnofacil.ar"
                             className="text-blue-400 hover:text-blue-300 transition-colors text-sm flex items-center"
                         >
                             <EnvelopeIcon className="w-4 h-4 mr-1" />
-                            tecnofacilblogweb@gmail.com
+                            contacto@tecnofacil.ar
                         </a>
                     </div>
 

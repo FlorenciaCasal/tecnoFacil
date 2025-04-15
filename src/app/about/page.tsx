@@ -37,10 +37,10 @@ export default function About() {
                     ¿Preguntas o colaboraciones? Escríbenos a:
                 </p>
                 <a
-                    href="mailto:tecnofacilblogweb@gmail.com"
+                    href="mailto:contacto@tecnofacil.ar"
                     className="text-blue-600 font-medium hover:text-blue-800 hover:underline text-xl"
                 >
-                    tecnofacilblogweb@gmail.com
+                    contacto@tecnofacil.ar
                 </a>
                 <p className="text-sm text-gray-500 mt-2">
                     Responderemos dentro de las 48 horas.
