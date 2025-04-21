@@ -28,7 +28,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
     <section className="py-8 flex-grow">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">{post.title}</h1>
         <p className="text-sm text-gray-500 mb-4">{post.date}</p>
         <div className="prose mb-8">
           {post.contentHtml && (
@@ -42,10 +42,12 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <Link href="https://amzn.to/4iMIZWc" target="_blank" className="text-blue-600 hover:underline" rel="nofollow noopener noreferrer">
               <div className="flex flex-col items-center text-center">
                 Teclado inalámbrico mecánico
-                <Image src="https://m.media-amazon.com/images/I/71oooMQxjLL._AC_SL1500_.jpg"
+                <Image 
+                  src="https://m.media-amazon.com/images/I/71oooMQxjLL._AC_SL1500_.jpg"
                   alt="Teclado inalámbrico mecánico"
-                  width={200}
-                  height={100}
+                  width={150}
+                  height={150}
+                  className="object-contain max-h-36 w-auto"
                   unoptimized
                 />
               </div>
@@ -54,10 +56,12 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <Link href="https://amzn.to/4iOX2KN" target="_blank" className="text-blue-600 hover:underline" rel="nofollow noopener noreferrer">
               <div className="flex flex-col items-center text-center">
                 Mouse inalámbrico ergonómico
-                <Image src="https://m.media-amazon.com/images/I/71tqvuHgIlL._AC_SL1500_.jpg"
+                <Image 
+                  src="https://m.media-amazon.com/images/I/71tqvuHgIlL._AC_SL1500_.jpg"
                   alt="Mouse inalámbrico ergonómico"
-                  width={200}
-                  height={100}
+                  width={150}
+                  height={150}
+                  className="object-contain max-h-36 w-auto"
                   unoptimized
                 />
               </div>
@@ -66,10 +70,12 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <Link href="https://amzn.to/3FSnk0o" target="_blank" className="text-blue-600 hover:underline" rel="nofollow noopener noreferrer">
               <div className="flex flex-col items-center text-center">
                 Auriculares bluethoot
-                <Image src="https://m.media-amazon.com/images/I/713bfTZ2mrL._AC_SL1500_.jpg"
+                <Image 
+                  src="https://m.media-amazon.com/images/I/713bfTZ2mrL._AC_SL1500_.jpg"
                   alt="Auriculares bluethoot"
-                  width={200}
-                  height={100}
+                  width={150}
+                  height={150}
+                  className="object-contain max-h-36 w-auto"
                   unoptimized
                 />
               </div>

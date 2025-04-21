@@ -4,7 +4,7 @@ import Image from "next/image";
 const Navbar = () => {
     return (
         <header className="bg-gradient-to-r from-blue-700 to-blue-600 text-white py-2">
-            <div className="container mx-auto flex justify-between items-center">
+            <div className="container mx-auto flex justify-between items-center px-4">
                 <Link href="/" className="flex items-center">
                     <Image 
                         src="/images/logo.jpg" // Ruta a tu logo en public/

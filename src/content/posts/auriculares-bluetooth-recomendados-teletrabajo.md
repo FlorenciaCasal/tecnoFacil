@@ -10,7 +10,7 @@ En esta guía, te recomiendo **los mejores auriculares Bluetooth para teletrabaj
 
 ## 🎧 1. **Sony WH-1000XM5** - Auriculares Bluetooth con cancelación de ruido para teletrabajo
 
-<div style="display: flex; align-items: center; gap: 80px;">  
+<div class="flex items-center gap-10 sm:gap-20"> 
   <div>
     <a href="https://amzn.to/4lbNTxJ" style="margin-left: auto; text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
     <img src="https://m.media-amazon.com/images/I/61qmRVWOoML._AC_SL1500_.jpg" alt="Sony WH-1000XM5" width="120" height="120">
@@ -33,7 +33,7 @@ En esta guía, te recomiendo **los mejores auriculares Bluetooth para teletrabaj
 
 ## 🎧 2. **JBL Tour One M2** - Auriculares inalámbricos con cancelación de ruido sobre la oreja 
 
-<div style="display: flex; align-items: center; gap: 80px;"> 
+<div class="flex items-center gap-10 sm:gap-20">
 <div>
     <a href="https://amzn.to/3FNFBf3" style="margin-left: auto; text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
     <img src="https://m.media-amazon.com/images/I/61rJmoiiYHL._AC_SL1500_.jpg" alt="JBL Tour One M2" width="120" height="120">
@@ -56,7 +56,7 @@ En esta guía, te recomiendo **los mejores auriculares Bluetooth para teletrabaj
 
 ## 🎧 3. **Philips TAH4205** - Auriculares inalámbricos. 
 
-<div style="display: flex; align-items: center; gap: 80px;">  
+<div class="flex items-center gap-10 sm:gap-20"> 
 <div>
     <a href="https://amzn.to/4hZJwml" style="margin-left: auto; text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
     <img src="https://m.media-amazon.com/images/I/71NbN9Xjz2L._AC_SY879_.jpg" alt="Philips TAH4205" width="120" height="120">

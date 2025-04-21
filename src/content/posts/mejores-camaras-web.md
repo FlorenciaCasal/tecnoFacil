@@ -11,7 +11,7 @@ Acá te dejo **las mejores opciones calidad-precio en 2025**.
 
 ## 🎥 1. <strong>Logitech C920x HD Pro</strong> - Calidad Full HD y audio cristalino (autofoco y sonido claro).
 
-<div style="display: flex; align-items: center; gap: 80px;">    
+<div class="flex items-center gap-10 sm:gap-20">    
     <div>
         <a href="https://amzn.to/3FMXKcV" style="margin-left: auto; text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
         <img src="https://m.media-amazon.com/images/I/71iNwni9TsL._AC_SL1500_.jpg" alt="Logitech C920" width="120" height="120">
@@ -33,7 +33,7 @@ Acá te dejo **las mejores opciones calidad-precio en 2025**.
 
 ## 🎥 2. <strong>Razer Kiyo</strong> - Streaming con luz integrada y colores vibrantes (anillo de luz y colores vivos).
 
-<div style="display: flex; align-items: center; gap: 80px;">  
+<div class="flex items-center gap-10 sm:gap-20">  
     <div>
         <a href="https://amzn.to/3Ee9DIq" style="text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
         <img src="https://m.media-amazon.com/images/I/71zTLsSWngL._AC_SL1500_.jpg" alt="Razer Kiyo" width="120" height="120">
@@ -55,7 +55,7 @@ Acá te dejo **las mejores opciones calidad-precio en 2025**.
 <br>
 
 ## 🎥 3. <strong>Logitech Brio</strong> - Videollamadas con luz optimizada y micrófono integrado (brillo mejorado y sonido claro).
-<div style="display: flex; align-items: center; gap: 80px;">  
+<div class="flex items-center gap-10 sm:gap-20">  
  <div>
         <a href="https://amzn.to/3G0lrhX" style="text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
         <img src="https://m.media-amazon.com/images/I/71A0Pp767BL._AC_SL1500_.jpg" alt="Logitech Brio" width="120" height="120">
@@ -76,7 +76,7 @@ Acá te dejo **las mejores opciones calidad-precio en 2025**.
 <br>
 
 ## 🎥 4. <strong>Cámara Web NEWORK 4K</strong> - Resolución ultra HD y sonido claro (imagen detallada y cancelación de ruido).
-<div style="display: flex; align-items: center; gap: 80px;"> 
+<div class="flex items-center gap-10 sm:gap-20">
  <div>
         <a href="https://amzn.to/41Vur0F" style="text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
         <img src="https://m.media-amazon.com/images/I/61FARbLkUML._AC_SL1500_.jpg" alt="Cámara Web NEWORK 4K" width="120" height="120">
