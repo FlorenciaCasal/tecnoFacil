@@ -43,7 +43,7 @@ export default function About() {
                     contacto@tecnofacil.ar
                 </a>
                 <p className="text-sm text-gray-500 mt-2">
-                    Responderemos dentro de las 48 horas.
+                    
                 </p>
             </div>
         </main>

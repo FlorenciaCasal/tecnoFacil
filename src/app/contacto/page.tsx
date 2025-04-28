@@ -30,7 +30,7 @@ export default function ContactPage() {
             contacto@tecnofacil.ar
           </p>
           <p className="mt-3 text-sm text-gray-500">
-            Respondemos en menos de 48 horas.
+        
           </p>
         </div>
       </div>
