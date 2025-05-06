@@ -3,6 +3,7 @@ import { getSortedPostsData } from '@/lib/posts';
 // import Head from 'next/head';
 import Image from 'next/image';
 import { Metadata } from "next";
+import { motion } from "framer-motion";
 
 export const metadata: Metadata = {
   title: "Mi Blog - Productos recomendados",
@@ -45,7 +46,14 @@ export default function Home() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {allPostsData.map(({ slug, date, title }) => (
-          <article key={slug} className="border p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+          // <article key={slug} className="border p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+          <motion.article
+            key={slug}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            whileHover={{ scale: 1.02 }}
+            // className="border p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow">
+            className="border p-4 rounded-lg shadow-lg hover:shadow-2xl transition-all">
             <Link href={`/post/${slug}`} className="block">
               {/* Imagen opcional */}
               <Image
@@ -59,7 +67,8 @@ export default function Home() {
               <h2 className="text-2xl font-semibold mt-4 hover:text-blue-600">{title}</h2>
             </Link>
             <p className="text-sm text-gray-500">{date}</p>
-          </article>
+            {/* </article> */}
+          </motion.article>
         ))}
       </div>
     </main>
