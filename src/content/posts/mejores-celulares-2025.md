@@ -60,11 +60,11 @@ Analizamos procesador, batería, pantalla y cámara para ayudarte a elegir el me
 
 <br> 
 
-## 📱 3. <strong>Moto G Stylus 5G (2024)</strong> - Celular con lápiz óptico y gran autonomía. 
+## 📱 3. <strong>Moto G Stylus 5G (2025)</strong> - Celular con lápiz óptico y gran autonomía. 
 <div class="flex items-center gap-10 sm:gap-20">
 <div class="hover:scale-105 transition-transform">
-    <a href="https://amzn.to/3FOPvgx" style=" text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
-     <img src="https://m.media-amazon.com/images/I/61LE9-6KxdL._AC_SL1500_.jpg" alt="Moto G Stylus 5G (2024)" width="120" height="120">
+    <a href="https://amzn.to/4lU6gHI" style=" text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
+     <img src="https://f.media-amazon.com/images/I/712YWK-GeVL._AC_SL1500_.jpg" alt="Moto G Stylus 5G (2025)" width="120" height="120">
      <br>
     ☝️ Ver precio en Amazon
   </a>
@@ -72,12 +72,11 @@ Analizamos procesador, batería, pantalla y cámara para ayudarte a elegir el me
   <div>
     <ul>
         <li>✅ Lápiz óptico incluido – Ideal para tomar notas, dibujar o editar fotos (único en su rango de precio).</li>  
-        <li>✅ Pantalla: 6.7" pOLED 120Hz + Dolby Atmos – Calidad visual y auditiva superior para multimedia.</li>  
-        <li>✅ Cámara: 50MP con OIS – Buen rendimiento en fotos y videos, incluso con poca luz. </li>  
+        <li>✅ Pantalla: pOLED Super HD de 6.7" + Dolby Atmos – Calidad visual y auditiva superior para multimedia.</li>  
+        <li>✅ Cámara: 50MP con OIS – Captura fotos más brillantes y vibrantes, incluso con poca luz. </li>  
         <li>✅ Memoria: 256GB de almacenamiento + RAM Boost y 8GB de RAM. </li>  
-        <li>✅ Batería: de 5000mAh + carga rápida 30W – Dura más de un día y se recarga rápido.</li>
+        <li>✅ Sistema operativo:	Android 15</li>
         <li>✅ 256GB de almacenamiento + 8GB RAM – Espacio amplio y fluidez en multitarea.</li>
-        <li>✅ Precio rebajado (249vs.249vs.399) – Oferta atractiva para un celular con estas specs.</li>
         <li>🎯 Usuarios que quieren un celular económico con lápiz óptico, pantalla fluida y batería de más de un día.</li>
     </ul>
   </div>
