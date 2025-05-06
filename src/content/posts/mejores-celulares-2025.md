@@ -11,7 +11,7 @@ Analizamos procesador, batería, pantalla y cámara para ayudarte a elegir el me
 
 ## 📱 1. <strong>Samsung Galaxy A55</strong> - Equilibrio en rendimiento y precio (pantalla AMOLED premium, cámaras versátiles).
 <div class="flex items-center gap-10 sm:gap-20">
-<div>
+<div class="hover:scale-105 transition-transform">
  <a href="https://amzn.to/4cdkEqc" style=" text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
     <img src="https://m.media-amazon.com/images/I/61s7W4UjnoL._AC_SL1500_.jpg" alt="Samsung Galaxy A55" width="120" height="120">
     <br>
@@ -35,7 +35,7 @@ Analizamos procesador, batería, pantalla y cámara para ayudarte a elegir el me
 
 ## 📱 2. <strong>Xiaomi Redmi Note 13 Pro 5G</strong> - Fotografía de alta resolución y carga rápida (200MP y 67W). 
 <div class="flex items-center gap-10 sm:gap-20"> 
-  <div>
+  <div class="hover:scale-105 transition-transform">
     <a href="https://amzn.to/4iLVaCD" style=" text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
      <img src="https://m.media-amazon.com/images/I/41GK+ItincL._AC_.jpg" alt="Xiaomi Redmi Note 13 Pro 5G" width="120" height="120">
      <br>
@@ -62,7 +62,7 @@ Analizamos procesador, batería, pantalla y cámara para ayudarte a elegir el me
 
 ## 📱 3. <strong>Moto G Stylus 5G (2024)</strong> - Celular con lápiz óptico y gran autonomía. 
 <div class="flex items-center gap-10 sm:gap-20">
-<div>
+<div class="hover:scale-105 transition-transform">
     <a href="https://amzn.to/3FOPvgx" style=" text-decoration: none; padding: 8px 12px; border-radius: 5px; font-weight: bold;">
      <img src="https://m.media-amazon.com/images/I/61LE9-6KxdL._AC_SL1500_.jpg" alt="Moto G Stylus 5G (2024)" width="120" height="120">
      <br>
