@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link';
 import { getSortedPostsData } from '@/lib/posts';
 // import Head from 'next/head';
