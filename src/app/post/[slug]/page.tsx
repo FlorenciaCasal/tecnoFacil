@@ -39,10 +39,10 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         <div className="mt-8">
           <h3 className="text-xl font-semibold">Productos recomendados:</h3>
           <div className="flex flex-wrap justify-around gap-8">
-            <Link href="https://amzn.to/4iMIZWc" target="_blank" className="text-blue-600 hover:underline" rel="nofollow noopener noreferrer">
+            <Link href="https://amzn.to/4iMIZWc" target="_blank" className="text-blue-600 hover:underline hover:scale-105 transition-transform" rel="nofollow noopener noreferrer">
               <div className="flex flex-col items-center text-center">
                 Teclado inalámbrico mecánico
-                <Image 
+                <Image
                   src="https://m.media-amazon.com/images/I/71oooMQxjLL._AC_SL1500_.jpg"
                   alt="Teclado inalámbrico mecánico"
                   width={150}
@@ -53,10 +53,10 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
               </div>
             </Link>
 
-            <Link href="https://amzn.to/4iOX2KN" target="_blank" className="text-blue-600 hover:underline" rel="nofollow noopener noreferrer">
+            <Link href="https://amzn.to/4iOX2KN" target="_blank" className="text-blue-600 hover:underline hover:scale-105 transition-transform" rel="nofollow noopener noreferrer">
               <div className="flex flex-col items-center text-center">
                 Mouse inalámbrico ergonómico
-                <Image 
+                <Image
                   src="https://m.media-amazon.com/images/I/71tqvuHgIlL._AC_SL1500_.jpg"
                   alt="Mouse inalámbrico ergonómico"
                   width={150}
@@ -67,10 +67,10 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
               </div>
             </Link>
 
-            <Link href="https://amzn.to/3FSnk0o" target="_blank" className="text-blue-600 hover:underline" rel="nofollow noopener noreferrer">
+            <Link href="https://amzn.to/3FSnk0o" target="_blank" className="text-blue-600 hover:underline hover:scale-105 transition-transform" rel="nofollow noopener noreferrer">
               <div className="flex flex-col items-center text-center">
                 Auriculares bluethoot
-                <Image 
+                <Image
                   src="https://m.media-amazon.com/images/I/713bfTZ2mrL._AC_SL1500_.jpg"
                   alt="Auriculares bluethoot"
                   width={150}
